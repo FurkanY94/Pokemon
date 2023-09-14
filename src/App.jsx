@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     if (data && data.gen3_species.length > 10) {
-      setSelected(9);
+      setSelected(10);
     }
   }, [data]);
 
